@@ -535,3 +535,62 @@ h3 {
 .dot.active {
     background: white;
 }
+
+
+
+/* Team section style */
+.team-section {
+    padding: 50px 40px;
+    background-color: #f8f9fa;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .title p {
+    font-size: 18px;
+    color: #6c757d;
+  }
+  
+  .title h2 {
+    font-size: 32px;
+    color: #343a40;
+  }
+  
+  .team-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .team-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* padding: 20px; */
+    text-align: start;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .team-card img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+    margin-bottom: 15px;
+  }
+  
+  .team-card h3 {
+    font-size: 20px;
+    color: #343a40;
+    margin-bottom: 5px;
+    padding: 20px;
+  }
+  
+  .team-card p {
+    font-size: 16px;
+    color: #6c757d;
+    padding: 20px;
+  }
