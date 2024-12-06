@@ -1,8 +1,8 @@
 /* universal */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Shared styles */
@@ -458,6 +458,11 @@ max-width: 1200px;  */
 }
 
 
+
+
+
+/* styling testimonial  */
+
 .testimonial-section {
     width: 100%;
     background: url('../assets/img/testimonials-bg.jpg') no-repeat center center/cover;
@@ -530,5 +535,3 @@ h3 {
 .dot.active {
     background: white;
 }
-
-
