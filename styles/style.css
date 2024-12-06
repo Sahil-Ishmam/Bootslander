@@ -416,7 +416,7 @@ max-width: 1200px;  */
 .gallery-section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px 10px;
 }
 
 .gallery-title {
@@ -540,7 +540,7 @@ h3 {
 
 /* Team section style */
 .team-section {
-    padding: 50px 40px;
+    padding: 100px 200px;
     background-color: #f8f9fa;
   }
   
@@ -593,4 +593,125 @@ h3 {
     font-size: 16px;
     color: #6c757d;
     padding: 20px;
+  }
+
+
+
+  /* pricing section styling  */
+  .pricing-section {
+    padding: 2rem;
+  }
+  .pricing-header {
+    padding: 50px 200px;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .pricing-header h2 {
+    font-size: 1.8rem;
+    color: #002ea6;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  .pricing-header p {
+    font-size: 1.2rem;
+    color: #1ab66d;
+    margin: 0;
+  }
+  
+  /* Cards Container */
+  .pricing-cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Card */
+  .card {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 330px;
+    text-align: left;
+  }
+  .card-sub-title{
+    color: gray;
+  }
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  .card .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #1ab66d;
+
+  }
+  .card .price span {
+    font-size: 1rem;
+    color: #888;
+  }
+  .card .btn {
+    background-color: #1ab66d;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .card .btn .btn-center{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .no-credit{
+    margin-bottom: 20px;
+  }
+  .card .btn:hover {
+    background-color: #149957;
+  }
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  .card ul li {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  .card ul li.disabled {
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  /* Popular Card Highlight */
+  .card.popular {
+    border: 2px solid #1ab66d;
+    position: relative;
+  }
+  .card.popular::before {
+    content: "Popular";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1ab66d;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .pricing-cards {
+      flex-direction: column;
+      align-items: center;
+    }
   }
